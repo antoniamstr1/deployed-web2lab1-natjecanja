@@ -16,6 +16,7 @@
     "prod": "npm-run-all --parallel server api-server"
   },
   "dependencies": {
+    "node": "^21.0.0",
     "@auth0/auth0-react": "^2.2.1",
     "@babel/core": "^7.23",
     "@babel/plugin-syntax-flow": "^7.22",
@@ -33,7 +34,7 @@
     "helmet": "^4.4",
     "highlight.js": "^10.0",
     "morgan": "^1.9",
-    "node": "^21.0.0",
+
     "npm-run-all": "^4.1",
     "package": "^1.0.1",
     "postcss": "^8.4",
